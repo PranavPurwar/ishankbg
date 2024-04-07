@@ -1,0 +1,12 @@
+@import url('https://cdn.xeiaso.net/static/pkg/iosevka/family.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Iosevka Curly Iaso", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
