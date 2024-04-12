@@ -2,27 +2,27 @@ export const BLOG_DATA = [
     {
         title: 'Blog 1',
         date: '01/01/2024',
-        slug: 'blog-1',
+        slug: 'example',
     },
     {
         title: 'Blog 2',
         date: '02/01/2024',
-        slug: 'blog-2',
+        slug: 'example',
     },
     {
         title: 'Blog 3',
         date: '03/01/2024',
-        slug: 'blog-3',
+        slug: 'example',
     },
     {
         title: 'Blog 4',
         date: '04/01/2024',
-        slug: 'blog-4',
+        slug: 'example',
     },
     {
         title: 'Blog 5',
         date: '05/01/2024',
-        slug: 'blog-5',
+        slug: 'example',
     }
 ]
 

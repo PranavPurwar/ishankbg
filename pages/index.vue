@@ -3,7 +3,7 @@
 
     <AppHeader />
     <div class="flex flex-col gap-4">
-    <p class="text-[#FFA8CE] text-3xl font-bold">
+    <p class="text-[#] text-3xl font-bold">
       Ishan Jaiswal
       </p>
 
@@ -72,6 +72,6 @@
 
 <script setup lang="ts">
 
-import AppHeader from './components/AppHeader.vue';
-import { BLOG_DATA, LINKS, PROJECTS, SKILLS } from './assets/css/data';
+import AppHeader from '../components/AppHeader.vue';
+import { BLOG_DATA, LINKS, PROJECTS, SKILLS } from '../assets/css/data';
 </script>
