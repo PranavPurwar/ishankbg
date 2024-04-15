@@ -63,7 +63,7 @@ export const LINKS = [
     },
     {
         title: 'RSS',
-        url: '/feed.xml'
+        url: '../feed'
     }
 ]
 

@@ -3,12 +3,12 @@
 
     <AppHeader />
     <div class="flex flex-col gap-4">
-    <p class="text-[#] text-3xl font-bold">
-      Ishan Jaiswal
+    <p class=" font-semibold text-2xl">
+      Blog Articles
       </p>
 
       <p class="text-[#FBF0C6]">
-        Tech Enthusiast | Addicted to Javascript
+        Some of my recent blog articles.
       </p>
     </div>
 
@@ -22,37 +22,6 @@
           • {{ blog.date }} - 
           <NuxtLink class="text-[#FFA8CE]" :to="`/blog/${blog.slug}`">
             {{ blog.title }}
-          </NuxtLink>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="flex flex-col gap-4">
-      <h2 class="text-[#d6bf64] text-xl font-bold">
-        Highlighted Projects
-      </h2>
-
-      <div class="flex flex-col gap-4">
-        <div v-for="project in PROJECTS">
-          • {{ project.title }} - 
-          <NuxtLink class="text-[#FFA8CE]" :to="`/blog/${project.slug}`">
-            {{ project.description }}
-          </NuxtLink>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex flex-col gap-4">
-      <h2 class="text-[#d6bf64] text-xl font-bold">
-        Quick Links
-      </h2>
-
-      <div class="flex flex-col gap-4">
-        <div v-for="link in LINKS">
-          • 
-          <NuxtLink class="text-[#FFA8CE]" :to="`/blog/${link.url}`">
-            {{ link.title }}
           </NuxtLink>
         </div>
       </div>

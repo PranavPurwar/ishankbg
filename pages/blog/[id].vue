@@ -1,6 +1,6 @@
 <template>
 	<main>
-    <div class="bg-[#1E2021] text-[#FBF0C6] w-[100%] min-h-[100vh] flex flex-col p-1 px-[20vw] gap-8 mx-auto">
+    <div class="bg-[#1E2021] text-[#FBF0C6] w-[100%] min-h-[100vh] flex flex-col p-1 px-[10vw] md:px-[20vw] gap-8 mx-auto">
       <AppHeader />
 
 			<div
